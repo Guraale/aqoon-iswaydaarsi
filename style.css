@@ -1,0 +1,48 @@
+body {
+    background: chartreuse;
+
+}
+/*form loging*/
+form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid blue;
+    align-items: center;
+    margin: auto;
+    margin-top: 56px;
+    background-color: rgba(9, 0, 7, 0.5);
+    border-radius: 30px;
+}
+
+.form h1{
+    color: white;
+    border-bottom: 4px solid red;
+    margin: 50px;
+    font-size: 2rem;
+}
+form p{
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
+    border-bottom: 4px solid yellow;
+}
+
+/*Boxes*/
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 69%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding:  6px;
+    width: 35%;
+    margin-top: 24px;
+    border: none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 1rem;
